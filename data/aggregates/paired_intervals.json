@@ -1,0 +1,74 @@
+{
+  "sub-01:S-B0": {
+    "difference_pp": 0.022857142857142864,
+    "crossed_seed_stimulus_percentile_95": [
+      -0.5599999999999999,
+      0.5599999999999999
+    ],
+    "resamples": 10000
+  },
+  "sub-02:S-B0": {
+    "difference_pp": 0.022857142857142854,
+    "crossed_seed_stimulus_percentile_95": [
+      -0.5028571428571428,
+      0.5028571428571428
+    ],
+    "resamples": 10000
+  },
+  "sub-03:S-B0": {
+    "difference_pp": -0.22857142857142854,
+    "crossed_seed_stimulus_percentile_95": [
+      -0.7657142857142857,
+      0.2514285714285714
+    ],
+    "resamples": 10000
+  },
+  "sub-04:S-B0": {
+    "difference_pp": -0.03428571428571426,
+    "crossed_seed_stimulus_percentile_95": [
+      -0.5828571428571427,
+      0.5942857142857143
+    ],
+    "resamples": 10000
+  },
+  "sub-04:G-B0": {
+    "difference_pp": -0.057142857142857134,
+    "crossed_seed_stimulus_percentile_95": [
+      -0.5599999999999999,
+      0.4685714285714285
+    ],
+    "resamples": 10000
+  },
+  "sub-04:S-S-perm": {
+    "difference_pp": -0.18285714285714288,
+    "crossed_seed_stimulus_percentile_95": [
+      -0.64,
+      0.3314285714285714
+    ],
+    "resamples": 10000
+  },
+  "sub-04:S-S-rewire": {
+    "difference_pp": 0.06857142857142856,
+    "crossed_seed_stimulus_percentile_95": [
+      -0.32,
+      0.5485714285714286
+    ],
+    "resamples": 10000
+  },
+  "sub-04:S-R": {
+    "difference_pp": -0.8914285714285715,
+    "crossed_seed_stimulus_percentile_95": [
+      -2.080285714285714,
+      0.17142857142857146
+    ],
+    "resamples": 10000
+  },
+  "sub-05:S-B0": {
+    "difference_pp": 0.30857142857142855,
+    "crossed_seed_stimulus_percentile_95": [
+      -0.4,
+      0.96
+    ],
+    "resamples": 10000
+  }
+}

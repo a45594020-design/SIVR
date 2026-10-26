@@ -1,0 +1,55 @@
+{
+  "protocol_version": 2,
+  "frozen_before_new_validation": true,
+  "initialization": "seed_all after legacy import; all E1 baseline units rerun",
+  "folds": [
+    1
+  ],
+  "data_sha256": "04f12f74a0096a3045138bb04dd83165d22aa159c099eca162e22d9e415ddbaf",
+  "brain_pca_sha256": "175cee243b8cf48e7426c16c50f4ecd98e40fa091438ab3ef94be6bffd8b2503",
+  "hybrid_lambda": 12462.757227594657,
+  "loss_lambda": 12539.640153467572,
+  "model_seeds": [
+    0,
+    1,
+    2
+  ],
+  "graph_seed_rule": "10000+seed",
+  "module_seed_rule": "30000+seed",
+  "epochs": 100,
+  "batch_size": 512,
+  "precision": "float64",
+  "E4a_units": 27,
+  "E5a_units": 18,
+  "E4b_units": 24,
+  "new_runs": 53,
+  "reused_E1_runs": 0,
+  "unique_runs": 53,
+  "auxiliary_protocol": {
+    "target": "frozen GPTNeo text",
+    "ridge_alpha": 1.0,
+    "fit_only": true,
+    "brain_posterior": "mean",
+    "candidate_score": "cosine",
+    "primary_original_VT_SVC_unchanged": true
+  },
+  "selection": "positive auxiliary true-minus-perm AND greater than B0; highest true score; tie Loss Spatial Hybrid; if none Spatial diagnostic fallback",
+  "scope": "first-fold exploratory; folds2/3 conditional, not automatically assumed complete",
+  "disk_gate_bytes": 1677721600,
+  "sha_scripts": {
+    "auxiliary_eval.py": "2124cea71cd52a275ad2281a931332ce5f61e6905af8a96d86420181de4c5d0e",
+    "bootstrap.py": "0b547a8fb1dd112091c3960db29c250bd74b10ce492dd059d9f7e3c11aec1101",
+    "build_runner.py": "030501c547af5028361710c3740c32f297bea285375058e886efc56d5485a462",
+    "common.py": "937522cdcb6c29540544a96a20dc6031a5f8e4e447ef8ac2f8081877712c209a",
+    "evaluate_saved.py": "fc2ee32d4daaf1eaa650be3d3d7992146fa88df8388e7f5bfccdf77231832458",
+    "experiment_queue.py": "21b11a717cb0c71cd54a95e688f9cebfc91b8eeaac11c6297365137dd425a940",
+    "injection_models.py": "3069b7d96624ea0df0127405eca3fab798436a0998c34e6a440c6349a1cea9ac",
+    "modality_ablation.py": "8b7d53b6a2fa327faa607b82f5194ad8f1cf9013c5c9e71dae3ba8f887c25d34",
+    "priors.py": "9f6791192cabc0534c334546936272dbe631cff58ee680756de17d3ba21de317",
+    "run.py": "ad506ca5cca1a68c6aa04f1123d0df35c51dd4a4af74b96c36eb6be01bf1fae1",
+    "runtime.py": "2bf4b108baf5e3e71ec655294c97c1ede89c111ffa635ea4abb1dbde666f2436",
+    "summarize.py": "44797ae46c15ac4cfbf4a017e230053e1588fd7e1f699dd1af0582e5cd592341",
+    "test_contracts.py": "8da00504e4673c3e702c22c4201e3ff169e16f1f5335ba87c0b993360f49373c",
+    "backup_watch.py": "49d236a4c2603d4518282f5a4fd9f3abe3005bd7b2c551435713a7af9de149ec"
+  }
+}

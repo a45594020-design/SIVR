@@ -1,0 +1,97 @@
+[
+  {
+    "file": "run_epochs_trimodal.py",
+    "sha256": "dc297be331a07df1cb39f8313712c775c6f170a609bddd3514b958000c983ab3",
+    "origin": "archived backbone snapshot"
+  },
+  {
+    "file": "modalities/Modality.py",
+    "sha256": "d1bd1e106504fc968e0e1b3a57665e6b3fd97ae820265c44dd8ea0fbb4011572",
+    "origin": "archived backbone snapshot"
+  },
+  {
+    "file": "utils/BaseExperiment.py",
+    "sha256": "d1f2d7f334914374aebdedaa5cfcede19169281c698920d1f2bfbca9691d1386",
+    "origin": "archived backbone snapshot"
+  },
+  {
+    "file": "utils/BaseMMVae.py",
+    "sha256": "c2e241a6d5ff2f73fc1995885b547f582cae6f3ad8d1db5f28a38750bc26f3da",
+    "origin": "archived backbone snapshot"
+  },
+  {
+    "file": "utils/TBLogger.py",
+    "sha256": "cf18ded31386933081b937a6a62044e1f446ee5faedac9bfecc6b47b07c7555a",
+    "origin": "archived backbone snapshot"
+  },
+  {
+    "file": "utils/filehandling.py",
+    "sha256": "37af3b635d869a3e66cd40892423ef0f6a94d309cf06ca983f7a006dcc67744e",
+    "origin": "archived backbone snapshot"
+  },
+  {
+    "file": "utils/utils.py",
+    "sha256": "68b6295f80de00c8c8ca9040025dd02c6e8c985b93135cd548f85b517b43bbcc",
+    "origin": "archived backbone snapshot"
+  },
+  {
+    "file": "utils/BaseFlags.py",
+    "sha256": "9efaec93943adc1bf58404d7ecd7d78b2f82e2c08743fe9e66a0ee9a2f2d5ae4",
+    "origin": "archived backbone snapshot"
+  },
+  {
+    "file": "brain_image_text/constants.py",
+    "sha256": "4ff8c1ccb644f4afbc4355bac587a07baf1a7d9f3f3a8072fcf4585a5e72123c",
+    "origin": "archived backbone snapshot"
+  },
+  {
+    "file": "brain_image_text/experiment.py",
+    "sha256": "a16d90818d00e268661a541ceab530c924fa91c6817d9e7d575594028cd63ba8",
+    "origin": "archived backbone snapshot"
+  },
+  {
+    "file": "brain_image_text/flags.py",
+    "sha256": "94dcc2936f2bf5917fde61152079fa375b975d5a658dbe2863f108c92f456283",
+    "origin": "archived backbone snapshot"
+  },
+  {
+    "file": "divergence_measures/kl_div.py",
+    "sha256": "a4ecc19ee05921935aa12522c7198f186be8cb09614e8e0fac7013aa25e8c67e",
+    "origin": "archived backbone snapshot"
+  },
+  {
+    "file": "divergence_measures/mm_div.py",
+    "sha256": "dc4f4826279cc35bed725e690d26e500b04a52d708ffcbdbf93cef3172599e82",
+    "origin": "archived backbone snapshot"
+  },
+  {
+    "file": "divergence_measures/mmd.py",
+    "sha256": "05af0097b7fe34657b3fde7b2df00923d27ffdeffea027ad6cf8c8aef2fa7264",
+    "origin": "archived backbone snapshot"
+  },
+  {
+    "file": "brain_image_text/networks/MLP_Brain.py",
+    "sha256": "8127624b6b08b5bd0c3672f8bfd51a936a07101e61820e6d777c4279f372af37",
+    "origin": "archived backbone snapshot"
+  },
+  {
+    "file": "brain_image_text/networks/MLP_Image.py",
+    "sha256": "fbb9e691b3bf9d0a6887cb7e636b08131e018be8b980b36255926c44aa060ac5",
+    "origin": "archived backbone snapshot"
+  },
+  {
+    "file": "brain_image_text/networks/MLP_Text.py",
+    "sha256": "5278996daadff1f8d355de659bf18a98f3793a1aa3fd34a747662b7deb2ec394",
+    "origin": "archived backbone snapshot"
+  },
+  {
+    "file": "brain_image_text/networks/QNET.py",
+    "sha256": "466ef0bb34e8f113329458e658bb2e5a09f4fdb972666d881796c0bf230e6937",
+    "origin": "archived backbone snapshot"
+  },
+  {
+    "file": "brain_image_text/networks/VAEtrimodal.py",
+    "sha256": "5b3ac04003eb909aa91ac08d7f29de2e34220b50b1c4f0add37293f5917cb129",
+    "origin": "archived backbone snapshot"
+  }
+]

@@ -1,0 +1,6 @@
+{
+  "group": "B0",
+  "seed": 0,
+  "epochs": 100,
+  "graph_seed": 10000
+}

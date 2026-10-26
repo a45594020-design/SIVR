@@ -1,0 +1,14 @@
+{
+  "group": "B0",
+  "seed": 0,
+  "epochs": 100,
+  "k": 12,
+  "scale": 2.0,
+  "mismatch": 0.0,
+  "graph_seed": 10000,
+  "modalities": [
+    "brain",
+    "image",
+    "text"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "recorded_unix": 1791630386.075245,
+  "reason": "Before any ablation validation: remove unchanged directed negative pairs in BV/BT; BVT uses untouched legacy six triple cases. Summary adds parameter count; no E4 BVT training objective change.",
+  "code_sha256": {
+    "modality_ablation.py": "15e37c4489413564ae51883c84861ca9c276fcc01d9ea335214332a090814c1f",
+    "summarize.py": "31cdc49186455c72723780b423494d83b9b54ae5f409e8496d35d503e48b6111"
+  }
+}

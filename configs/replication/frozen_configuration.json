@@ -1,0 +1,90 @@
+{
+  "frozen_utc": "2026-10-03T13:48:12.209535+00:00",
+  "configurations": {
+    "B0": {
+      "group": "B0",
+      "seed": 2021,
+      "epochs": 100
+    },
+    "R": {
+      "group": "R",
+      "seed": 2021,
+      "epochs": 100,
+      "target_grad_ratio": 1.0,
+      "lambda_actual": 83714.88058918968
+    },
+    "S": {
+      "group": "S",
+      "seed": 2021,
+      "epochs": 100,
+      "sign": "positive",
+      "k": 10,
+      "target_grad_ratio": 0.1,
+      "lambda_actual": 12322.8955928951
+    },
+    "G": {
+      "group": "G",
+      "seed": 2021,
+      "epochs": 100,
+      "k": 12,
+      "scale": 2.0,
+      "target_grad_ratio": 0.1,
+      "lambda_actual": 9378.208490083607
+    },
+    "S+G": {
+      "group": "S+G",
+      "seed": 2021,
+      "epochs": 100,
+      "stat": {
+        "sign": "positive",
+        "k": 10
+      },
+      "geo": {
+        "k": 12,
+        "scale": 2.0
+      },
+      "stat_fraction": 0.75,
+      "target_grad_ratio": 0.1,
+      "lambda_actual": 11465.558980157084
+    },
+    "G-perm": {
+      "group": "G-perm",
+      "seed": 2021,
+      "epochs": 100,
+      "k": 12,
+      "scale": 2.0,
+      "target_grad_ratio": 0.1,
+      "lambda_actual": 9378.208490083607
+    },
+    "G-rewire": {
+      "group": "G-rewire",
+      "seed": 2021,
+      "epochs": 100,
+      "k": 12,
+      "scale": 2.0,
+      "target_grad_ratio": 0.1,
+      "lambda_actual": 9378.208490083607
+    }
+  },
+  "training_seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "graph_seed_rule": "10000 + training_seed",
+  "test_evaluated_before_freeze": false,
+  "protocol": "train-only fold PCA; unaugmented BraVL objective; target ratio calibrated on full-training seed2021, then same actual lambda across final seeds",
+  "source_sha256": {
+    "common.py": "694acde6c5e79a631c8e68da882f8236e54ef25b30684aac335246d78985a4b8",
+    "prepare.py": "ca5880d795e1def177c7e7f7a352a75b01587a7e6f0ba0249a584839d2491f94",
+    "audit.py": "aabb57572e368cef2e6055ec5b9ce26da7531917326329e5a30b67fb50766472",
+    "priors.py": "9dbfde0a132482cd763fe5062a1bda1d1638752b91eb704a3f7407de01558097",
+    "run.py": "53cf8e1950c3cb8184531553495ff8bcdbe5d1c8a4d052da2fe42c7ab26af493",
+    "summarize.py": "dc7e654960b5b2f6137bd6c1e0db59ffe1f919e69e6e0955e5116e48600385ce",
+    "test_contracts.py": "1565d53cce3fe91111d4b73c08603391eec47b1333a78d308c96c46a5b5e0468",
+    "fetch_verified_weights.py": "232a52c3be013fad595eca55c1e329fe7eb2d3892fbd05c9ee8a23b8c63d0e05",
+    "experiment_queue.py": "759827df7e4cb619c051ef2cff2e2957a73958902c8298bdb7a9c3df0d4f4c76"
+  }
+}

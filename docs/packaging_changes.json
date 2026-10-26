@@ -1,0 +1,62 @@
+[
+  {
+    "source": "replication/common.py",
+    "target": "src/sivr/replication/common.py",
+    "changes": "Package-relative internal imports; common paths configured externally."
+  },
+  {
+    "source": "replication/priors.py",
+    "target": "src/sivr/replication/priors.py",
+    "changes": "Package-relative internal imports; common paths configured externally."
+  },
+  {
+    "source": "replication/run.py",
+    "target": "src/sivr/replication/run.py",
+    "changes": "Package-relative internal imports; common paths configured externally."
+  },
+  {
+    "source": "development/common.py",
+    "target": "src/sivr/development/common.py",
+    "changes": "Package-relative internal imports; common paths configured externally."
+  },
+  {
+    "source": "development/priors.py",
+    "target": "src/sivr/development/priors.py",
+    "changes": "Package-relative internal imports; common paths configured externally."
+  },
+  {
+    "source": "development/run.py",
+    "target": "src/sivr/development/run.py",
+    "changes": "Package-relative internal imports; common paths configured externally."
+  },
+  {
+    "source": "development/auxiliary_eval.py",
+    "target": "src/sivr/development/auxiliary_eval.py",
+    "changes": "Package-relative internal imports; common paths configured externally."
+  },
+  {
+    "source": "development/evaluate_saved.py",
+    "target": "src/sivr/development/evaluate_saved.py",
+    "changes": "Package-relative internal imports; common paths configured externally."
+  },
+  {
+    "source": "development/injection_models.py",
+    "target": "src/sivr/development/injection_models.py",
+    "changes": "Package-relative internal imports; common paths configured externally."
+  },
+  {
+    "source": "development/modality_ablation.py",
+    "target": "src/sivr/development/modality_ablation.py",
+    "changes": "Package-relative internal imports; common paths configured externally."
+  },
+  {
+    "source": "development/runtime.py",
+    "target": "src/sivr/development/runtime.py",
+    "changes": "Package-relative internal imports; common paths configured externally."
+  },
+  {
+    "source": "development/summarize.py",
+    "target": "src/sivr/development/summarize.py",
+    "changes": "Package-relative internal imports; common paths configured externally."
+  }
+]

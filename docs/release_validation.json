@@ -1,0 +1,13 @@
+{
+  "packaged_files": 94,
+  "CPU_tests_passed": 7,
+  "aggregate_units": 85,
+  "reference_space_rows": 255,
+  "replication_configurations_generated": 45,
+  "syntax_check": "passed",
+  "main_paper_modified": false,
+  "GPU_training_rerun": false,
+  "public_upload_performed": false,
+  "original_additions_license": "author decision pending",
+  "backbone": "archived snapshot + upstream support, attribution retained"
+}

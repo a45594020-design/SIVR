@@ -1,0 +1,11 @@
+{
+  "status": "complete",
+  "main_runs": 35,
+  "source_controls": 10,
+  "other_subject_runs": 40,
+  "total_runs": 85,
+  "all_epochs": 100,
+  "prediction_metrics_verified": true,
+  "five_distinct_backbone_initializations_per_subject": true,
+  "paired_initialization_within_subject_and_seed": true
+}

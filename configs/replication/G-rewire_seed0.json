@@ -1,0 +1,10 @@
+{
+  "group": "G-rewire",
+  "seed": 0,
+  "epochs": 100,
+  "k": 12,
+  "scale": 2.0,
+  "target_grad_ratio": 0.1,
+  "lambda_actual": 9378.208490083607,
+  "graph_seed": 10000
+}

@@ -1,0 +1,8 @@
+{
+  "reason": "legacy import reset RNG to 2021; confirmed all seed states equal; seed after imports fixes distinct states",
+  "E1_reuse_rejected": true,
+  "all_primary_units_new": 53,
+  "previous_exploratory_data_archived": "protocol_v1",
+  "before_primary_v2_training": true,
+  "inference_audit": "decoder graph does not determine latent; full legacy brain forward nonetheless invokes decoder graph"
+}

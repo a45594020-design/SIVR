@@ -1,0 +1,17 @@
+{
+  "group": "S+G",
+  "seed": 0,
+  "epochs": 100,
+  "stat": {
+    "sign": "positive",
+    "k": 10
+  },
+  "geo": {
+    "k": 12,
+    "scale": 2.0
+  },
+  "stat_fraction": 0.75,
+  "target_grad_ratio": 0.1,
+  "lambda_actual": 11465.558980157084,
+  "graph_seed": 10000
+}

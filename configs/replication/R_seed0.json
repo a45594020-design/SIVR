@@ -1,0 +1,8 @@
+{
+  "group": "R",
+  "seed": 0,
+  "epochs": 100,
+  "target_grad_ratio": 1.0,
+  "lambda_actual": 83714.88058918968,
+  "graph_seed": 10000
+}

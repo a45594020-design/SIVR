@@ -1,0 +1,9 @@
+{
+  "replication_root": "../runs/replication",
+  "replication_cache": "../data/cache/replication",
+  "development_root": "../runs/development",
+  "development_base": "../data/development",
+  "development_cache": "../data/cache/development",
+  "data_root": "../data/GOD-Wiki",
+  "backbone_root": "../third_party/bravl"
+}

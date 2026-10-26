@@ -1,0 +1,25 @@
+{
+  "type": "corrected-initialization replication, not fresh test confirmation",
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "conditions": [
+    "B0",
+    "R",
+    "S",
+    "G",
+    "S+G",
+    "G-perm",
+    "G-rewire"
+  ],
+  "epochs": 100,
+  "configuration_selection": "inherited frozen configuration; no new search",
+  "evaluation": "original V/T/VT SVC, unchanged",
+  "baseline_audit": "cache alignment, saved metric replay and B0 checkpoint inference replay",
+  "legacy_outputs": "read-only",
+  "initialization": "reseed after all legacy imports; record backbone hash; matched within seed"
+}

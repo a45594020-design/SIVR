@@ -1,0 +1,10 @@
+{
+  "group": "S-perm",
+  "seed": 0,
+  "epochs": 100,
+  "sign": "positive",
+  "k": 10,
+  "target_grad_ratio": 0.1,
+  "lambda_actual": 12322.8955928951,
+  "graph_seed": 10000
+}
